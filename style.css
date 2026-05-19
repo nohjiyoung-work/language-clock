@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: white;
+}
+
+.circle {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+    border: 5px solid black;
+    border-radius: 50%;
+    box-sizing: border-box;
+    font-family: "Gothic A1", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.clock-axis {
+    position: absolute;
+    width: 0;
+    height: 0;
+    display: flex;
+    align-items: center;
+}
+
+.hand {
+    position: absolute;
+    font-weight: bold;
+    white-space: nowrap;
+    transform-origin: left center; 
+    display: inline-block;
+}
+
+#kor-hour-hand {
+    font-size: 5rem;
+    color: black;
+    padding-left: 30px;
+}
+
+#kor-minute-hand {
+    font-size: 3rem;
+    color: black;
+    padding-left: 30px; 
+}
