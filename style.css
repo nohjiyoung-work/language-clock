@@ -19,8 +19,6 @@ body {
     border: 5px solid black;
     border-radius: 50%;
     box-sizing: border-box;
-    font-family: "Gothic A1", sans-serif;
-    font-weight: 800;
     font-style: normal;
 }
 
@@ -44,10 +42,14 @@ body {
     font-size: 5rem;
     color: black;
     padding-left: 30px;
+    font-family: "Gothic A1", sans-serif;
+    font-weight: 900;
 }
 
 #kor-minute-hand {
     font-size: 3rem;
     color: black;
-    padding-left: 30px; 
+    padding-left: 30px;
+    font-family: "Gothic A1", sans-serif;
+    font-weight: 800; 
 }
