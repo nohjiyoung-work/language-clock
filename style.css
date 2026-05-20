@@ -1,3 +1,7 @@
+html {
+    font-size: 0.8vw; 
+}
+
 body {
     margin: 0;
     width: 100vw;
@@ -6,7 +10,6 @@ body {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    background-color: white;
 }
 
 .circle {
@@ -39,7 +42,7 @@ body {
 }
 
 #kor-hour-hand {
-    font-size: 5rem;
+    font-size: clamp(50px, 4.5vw, 70px);
     color: black;
     padding-left: 30px;
     font-family: "Gothic A1", sans-serif;
@@ -47,7 +50,7 @@ body {
 }
 
 #kor-minute-hand {
-    font-size: 3rem;
+    font-size: clamp(40px, 3vw, 45px);
     color: black;
     padding-left: 30px;
     font-family: "Gothic A1", sans-serif;
