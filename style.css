@@ -1,15 +1,11 @@
-html {
-    font-size: 0.8vw; 
-}
-
 body {
     margin: 0;
     width: 100vw;
     height: 100vh;
-    display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    background-color: white;
 }
 
 .circle {
@@ -22,7 +18,9 @@ body {
     border: 5px solid black;
     border-radius: 50%;
     box-sizing: border-box;
+    isolation: isolate;
     font-style: normal;
+    margin: 30px auto;
 }
 
 .clock-axis {
@@ -32,6 +30,9 @@ body {
     display: flex;
     align-items: center;
 }
+
+#hour-axis { z-index: 1; }
+#minute-axis { z-index: 2; }
 
 .hand {
     position: absolute;
@@ -51,8 +52,18 @@ body {
 
 #kor-minute-hand {
     font-size: clamp(40px, 3vw, 45px);
-    color: black;
     padding-left: 30px;
     font-family: "Gothic A1", sans-serif;
-    font-weight: 800; 
+    font-weight: 800;
+    color: black;
+    mix-blend-mode: difference; 
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 0 0 20px;
+    font-size: 1rem;
 }
