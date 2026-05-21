@@ -95,5 +95,5 @@ footer {
     left: 0;
     width: 100%;
     padding: 0 0 0 20px;
-    font-size: clamp(15px, 2vw, 20px);
+    font-size: clamp(10px, 2vw, 20px);
 }
