@@ -8,6 +8,26 @@ body {
     background-color: white;
 }
 
+#lang-select {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 5vw;
+    height: 5vh;
+    display: inline-block;
+    font-family: "Gothic A1", sans-serif;
+    font-size: clamp(15px, 1.5vw, 20px);
+    font-weight: 800;
+    padding: 4px 8px;
+    cursor: pointer;
+    border: none;
+    background: none; 
+}
+  
+#lang-select:focus {
+    outline: none;
+}
+
 .circle {
     position: relative;
     display: flex;
