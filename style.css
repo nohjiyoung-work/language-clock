@@ -27,6 +27,7 @@ body {
     border: none;
     background: none;
     text-align: center;
+    color: black;
 
     /* 사파리 네이티브 select 박스 제거 */
     -webkit-appearance: none;
